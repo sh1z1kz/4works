@@ -1,73 +1,109 @@
-<!DOCTYPE html>
-<html lang="en">
+:root {
+    --body-color: linear-gradient(90deg, hsl(104, 28%, 40%) 0%, hsl(58, 28%, 40%) 100%);
+}
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-        rel="stylesheet">
-</head>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 
-<body>
-    <div class="site">
-        <section class="site__wrapper">
-            <div class="site__slider">
-                <div class="slider">
-                    <div class="slider_block">
-                        <div class="slider_wrapper">
-                            <div class="slider__info">
-                                <h1 class="info__title">
-                                    UOOOO
-                                    <br>
-                                    TRICK OR
-                                    <br>
-                                    TREAT!!
-                                </h1>
-                                <p class="info__description">
-                                    Hi, I'm Reiza, people call me "El Labu". I am currently trying to learn
-                                    something new, building my own bike with parts made only in Malaysia.
-                                </p>
-                            </div>
-                            <div class="slider__image">
-                        <img class="image" src="img/home2-img.png" />
-                    </div>
-                </div>
-                </div>
-                <div class="slider_block" style="display:block;">
-                    <div class="slider_wrapper">
-                        <div class="slider__info">
-                            <h1 class="info__title">
-                                UOOOO
-                                <br>
-                                TRICK OR
-                                <br>
-                                TREAT!!
-                            </h1>
-                            <p class="info__description">
-                                Hi, I'm Reiza, people call me "El Labu". I am currently trying to learn
-                                something new, building my own bike with parts made only in Malaysia.
-                            </p>
-                        </div>
-                     <div class="slider__image">
-                    <img class="image" src="img/home2-img.png" />
-                     </div>
-            </div>
-            </div>
-            </div>
-                <div class="slider__menu">
-                    <div class="menu__mark"></div>
-                </div>
-            </div>
-        </section>
-    </div>
+    font-family: 'Poppins', sans-serif;
+}
 
-    <script src="script.js"></script>
-</body>
+html,body {
+    width: 100%;
+    height: 100%;
+}
 
-</html>
+.site {
+    width: 100%;
+    height: 100%;
+    background: var(--body-color);
+}
+
+.site__wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.site__slider {
+    width: 968px;
+}
+
+.slider {
+    width: 100%;
+    height: 460px;
+}
+
+.slider_block {
+    width: 100%;
+    height: 460px;
+    display: none;
+}
+
+.slider_wrapper {
+    width: 100%;
+    height: 460px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.slider__menu{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu__mark {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: white;
+    opacity: .5;
+    cursor: pointer;
+    transition: opacite ease .25s;
+}
+
+.menu__mark:hover {
+    opacity: 1;
+}
+
+.slider__image {
+    width: 460px;
+    height: 460px;
+}
+
+.slider__info {
+    width: 460px;
+    height: 460px;
+}
+
+.slider__image .image {
+    width: 460px;
+}
+
+.info__title {
+    color: white;
+    font-size: 56px;
+    font-weight: 900;
+    line-height: 109%;
+    margin-bottom: 32px;
+}
+
+.info__description {
+    color: white;
+    font-size: 20px;
+    line-height: 109%;
+    margin-bottom: 32px;
+    opacity: .75;
+}
