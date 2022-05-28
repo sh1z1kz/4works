@@ -36,5 +36,94 @@ html, body {
     width: 400px;
     height: 400px;
     box-shadow: 0 3px 3px -3px rgba(0, 1, 0, .5);
+    float: 2000px left;
+    position: absolute; 
+    top: 160px; 
+    right: 185px;
+}
+
+.xcompany{
+    margin: 0;
+    position: absolute; 
+    top: 40px; 
+    left: 135px;
+}
+
+.doptext1{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: space-around;
+    justify-content: flex-start;
+    align-items: flex-start;
+    position:absolute;
+   font-size: 25;
+   position: absolute; 
+    top: 60px; 
+    right: 345px;
+}
+.doptext2{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: space-around;
+    justify-content: flex-start;
+    align-items: flex-start;
+    position:absolute;
+   font-size: 25;
+   position: absolute; 
+    top: 60px; 
+    right: 235px;
+}
+
+.doptext3{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: space-around;
+    justify-content: flex-start;
+    align-items: flex-start;
+    position:absolute;
+   font-size: 25;
+   position: absolute; 
+    top: 60px; 
+    right: 125px;
+}
+
+.infoblock{
+    position:absolute;
+    bottom: 60px;
+    left:550px;
+}
+
+.error404{
+    position:absolute;
+    top: 190px;
+    left:225px;
+}
+.hey{
+    position:absolute;
+    top: 240px;
+    left:235px;
+    font-size: 24px;
+}
+
+.wecant{
+    position:absolute;
+    top: 320px;
+    left:235px;
+    opacity:0,25;
 }
 
