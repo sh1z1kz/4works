@@ -1,0 +1,303 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html,body {
+    width: 100%;
+    height: 100%;
+}
+
+.delivery_a{
+    position: absolute;
+    top:50px;
+    left:200px;
+}
+
+.Hm{
+    position: absolute;
+    top:50px;
+    left:450px;
+}
+
+.Abo_us{
+    position: absolute;
+    top:50px;
+    left:550px;
+}
+
+.Servi{
+    position: absolute;
+    top:50px;
+    left:650px;
+}
+
+.Contact_s{
+    position: absolute;
+    top:50px;
+    left:750px;
+}
+
+.Button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 150px;
+    margin-top: 25px;
+    margin-right: 230px;
+    font-size: 18px;
+    color: black;
+    background-color: rgb(253, 203, 53);
+    border-radius: 25px;
+    cursor: pointer;
+    position: absolute;
+    top:10px;
+    left:950px;
+}
+
+.Order_Produc{
+    position: absolute;
+    top:170px;
+    left:265px;
+    font-size: 42px;
+}
+
+.order_u{
+    position: absolute;
+    top:300px;
+    left:270px;
+    font-size: 12px;
+    color:gray;
+}
+
+.but_get{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 150px;
+    margin-top: 25px;
+    margin-right: 230px;
+    font-size: 15px;
+    color: black;
+    background-color: rgb(253, 203, 53);
+    border-radius: 25px;
+    cursor: pointer;
+    position: absolute;
+    top:350px;
+    left:270px;
+}
+
+.home-ilustration{
+    position: absolute;
+    top:150px;
+    right:300px
+}
+
+.Find_out_a{
+    position: absolute;
+    top:650px;
+    right:355px;
+    font-size: 24px;
+}
+
+.We_are{
+    position: absolute;
+    top:730px;
+    right:325px;
+    font-size: 12px;
+    color:gray;
+}
+
+.about-ilustration{
+    position: absolute;
+    top:550px;
+    left:250px
+}
+
+.Your_Safety_IS{
+    position: absolute;
+    top:950px;
+    left:350px;
+    font-size: 24px;
+}
+
+.When_your{
+    position: absolute;
+    top:1050px;
+    left:350px;
+    font-size: 12px;
+    color:gray;
+}
+
+.security-ilustration{
+    position: absolute;
+    top:930px;
+    right:250px
+}
+
+.Some_Servic_we{
+    position: absolute;
+    top: 1350px;
+    left: 40%;
+}
+
+.services1-ilustration{
+    position: absolute;
+    top: 1450px;
+    left: 15%;
+    border-color: black;
+}
+
+.services2-ilustration{
+    position: absolute;
+    top: 1420px;
+    left: 40%;
+}
+
+.services3-ilustration{
+    position: absolute;
+    top: 1420px;
+    left: 65%;
+}
+
+.Find_you{
+    font-size: 16px;
+}
+
+.Pro_Rec{
+    font-size: 16px;
+}
+
+.In_our{
+    font-size: 12px;
+    color:gray;
+}
+
+.We_offer{
+    font-size: 12px;
+    color:gray;
+}
+
+.but_lear{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    color: black;
+    cursor: pointer;
+}
+
+.but_lear2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    color: black;
+    cursor: pointer;
+    left:30%;
+}
+
+.Watch_Your{
+    position: absolute;
+    top: 1800px;
+    left: 55%;
+    font-size:24px;
+}
+
+.With_our_ap{
+    position: absolute;
+    top: 1900px;
+    left: 55%;
+    font-size:12px;
+    color:gray;
+}
+
+.app-ilustration{
+    position: absolute;
+    top: 1800px;
+    left: 25%;
+}
+
+.but_app{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 150px;
+    margin-top: 25px;
+    margin-right: 230px;
+    font-size: 15px;
+    color: black;
+    background-color: rgb(253, 203, 53);
+    border-radius: 25px;
+    cursor: pointer;
+    position: absolute;
+    top:1940px;
+    left:55%;
+}
+
+.but_google{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 150px;
+    margin-top: 25px;
+    margin-right: 230px;
+    font-size: 15px;
+    color: black;
+    background-color: rgb(253, 203, 53);
+    border-radius: 25px;
+    cursor: pointer;
+    position: absolute;
+    top:1940px;
+    left:70%;
+}
+
+.Telephon{
+    position: absolute;
+    top:2200px;
+    left:50%;
+    font-size: 10px;
+}
+
+.mail{
+    position: absolute;
+    top:2225px;
+    left:50%;
+    font-size: 10px;
+}
+
+.adress{
+    position: absolute;
+    top:2250px;
+    left:50%;
+    font-size: 10px;
+}
+
+.but_Cont{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 150px;
+    margin-top: 25px;
+    margin-right: 230px;
+    font-size: 15px;
+    color: black;
+    background-color: rgb(253, 203, 53);
+    border-radius: 25px;
+    cursor: pointer;
+    position: absolute;
+    top:2190px;
+    left:65%;
+}
+
+.End{
+    top:2250px;
+    background-color: orange;
+}
